@@ -11,13 +11,14 @@
 </head>
 
 <body>
+    <!---- header Page -->
     <header class="header" id="header">
         <nav class="nav container">
             <a href="#" class="nav_logo">Sumit</a>
             <div class="content" id="nav-menu">
                 <ul class="nav_list grid">
                     <li>
-                        <a href="#home" class="nav_link">
+                        <a href="#home" class="nav_link active-link">
                             <i class="uil uil-estate nav_icon"></i> Home
                         </a>
                     </li>
@@ -51,13 +52,14 @@
             </div>
 
             <div class="nav_btns">
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
                 <div class="nav_toggle" id="nav-toggle">
                     <i class="uil uil-apps"></i>
                 </div>
             </div>
         </nav>
     </header>
-    <main class="mian">
+    <main class="main">
         <!---- Home Page -->
         <section class="home section" id="home">
             <div class="home_container container grid">
@@ -69,8 +71,8 @@
                         <a href="https://github.com/VAMPYBABA/" target="_blank" class="home_social-icon">
                             <i class="uil uil-github-alt"></i>
                         </a>
-                        <a href="https://www.instagram.com/i_sumit_ig/" target="_blank" class="home_social-icon">
-                            <i class="uil uil-instagram"></i>
+                        <a href="https://mailto:1020sumit@gmail.com/" target="_blank" class="home_social-icon">
+                            <i class="uil uil-envelope"></i>
                         </a>
                     </div>
 
@@ -138,7 +140,7 @@
                         </div>
                     </div>
                     <div class="about_buttons">
-                        <a download="" href="pdf/My_resume.pdf" class="button button--flex">
+                        <a download="" href="My_resume.pdf" class="button button--flex">
                             Download CV &nbsp <i class="uil uil-download-alt "> </i>
                         </a>
                     </div>
@@ -151,149 +153,147 @@
             <h2 class="section_title">Skills</h2>
             <span class="section_subtitle">My technical level </span>
             <div class="skills_container container grid">
-                <div>
-                    <!---- skill - 1 -->
-                    <div class="skills_content skills_close">
-                        <div class="skills_header">
-                            <i class="uil uil-brackets-curly skills_icon"></i>
-                            <div>
-                                <h1 class="skills_titles">Frontend Developer</h1>
-                                <span class="skills_subtitle">Around 1 Months</span>
-                            </div>
-                            <i class="uil uil-angle-down skills_arrow"></i>
+                <!---- skill - 1 -->
+                <div class="skills_content skills_close">
+                    <div class="skills_header">
+                        <i class="uil uil-brackets-curly skills_icon"></i>
+                        <div>
+                            <h1 class="skills_titles">Frontend Developer</h1>
+                            <span class="skills_subtitle">Around 1 Months</span>
                         </div>
-                        <div class="skills_list grid">
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">HTML</h3>
-                                    <span class="skills_number">90%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_html"></span>
-                                </div>
+                        <i class="uil uil-angle-down skills_arrow"></i>
+                    </div>
+                    <div class="skills_list grid">
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">HTML</h3>
+                                <span class="skills_number">90%</span>
                             </div>
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">CSS</h3>
-                                    <span class="skills_number">70%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_css"></span>
-                                </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_html"></span>
                             </div>
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">JavaScript</h3>
-                                    <span class="skills_number">50%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_js"></span>
-                                </div>
+                        </div>
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">CSS</h3>
+                                <span class="skills_number">70%</span>
                             </div>
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">React</h3>
-                                    <span class="skills_number">10%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_react"></span>
-                                </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_css"></span>
+                            </div>
+                        </div>
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">JavaScript</h3>
+                                <span class="skills_number">50%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_js"></span>
+                            </div>
+                        </div>
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">React</h3>
+                                <span class="skills_number">10%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_react"></span>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <!---- skill - 2 -->
-                    <div class="skills_content skills_close">
-                        <div class="skills_header">
-                            <i class="uil uil-server-network skills_icon"></i>
-                            <div>
-                                <h1 class="skills_titles">Backend Developer</h1>
-                                <span class="skills_subtitle">More than 3 years</span>
-                            </div>
-                            <i class="uil uil-angle-down skills_arrow"></i>
+                <!---- skill - 2 -->
+                <div class="skills_content skills_close">
+                    <div class="skills_header">
+                        <i class="uil uil-server-network skills_icon"></i>
+                        <div>
+                            <h1 class="skills_titles">Backend Developer</h1>
+                            <span class="skills_subtitle">More than 3 years</span>
                         </div>
-                        <div class="skills_list grid">
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">C</h3>
-                                    <span class="skills_number">60%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_c"></span>
-                                </div>
+                        <i class="uil uil-angle-down skills_arrow"></i>
+                    </div>
+                    <div class="skills_list grid">
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">C</h3>
+                                <span class="skills_number">60%</span>
                             </div>
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">Java</h3>
-                                    <span class="skills_number">90%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_java"></span>
-                                </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_c"></span>
                             </div>
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">Python</h3>
-                                    <span class="skills_number">50%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_python"></span>
-                                </div>
+                        </div>
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Java</h3>
+                                <span class="skills_number">90%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_java"></span>
+                            </div>
+                        </div>
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Python</h3>
+                                <span class="skills_number">50%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_python"></span>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <!---- skill - 3 -->
-                    <div class="skills_content skills_close">
-                        <div class="skills_header">
-                            <i class="uil uil-database-alt skills_icon"></i>
-                            <div>
-                                <h1 class="skills_titles">Database Management</h1>
-                                <span class="skills_subtitle">More than 3 years</span>
-                            </div>
-                            <i class="uil uil-angle-down skills_arrow"></i>
+                <!---- skill - 3 -->
+                <div class="skills_content skills_open">
+                    <div class="skills_header">
+                        <i class="uil uil-database-alt skills_icon"></i>
+                        <div>
+                            <h1 class="skills_titles">Database Management</h1>
+                            <span class="skills_subtitle">More than 3 years</span>
                         </div>
-                        <div class="skills_list grid">
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">MySQL</h3>
-                                    <span class="skills_number">90%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_mysql"></span>
-                                </div>
+                        <i class="uil uil-angle-down skills_arrow"></i>
+                    </div>
+                    <div class="skills_list grid">
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">MySQL</h3>
+                                <span class="skills_number">90%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_mysql"></span>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <!---- skill - 4 -->
-                    <div class="skills_content skills_close">
-                        <div class="skills_header">
-                            <i class="uil uil-swatchbook skills_icon"></i>
-                            <div>
-                                <h1 class="skills_titles">Extra Stuffs</h1>
-                                <span class="skills_subtitle">More than 2 years</span>
-                            </div>
-                            <i class="uil uil-angle-down skills_arrow"></i>
+                <!---- skill - 4 -->
+                <div class="skills_content skills_open">
+                    <div class="skills_header">
+                        <i class="uil uil-swatchbook skills_icon"></i>
+                        <div>
+                            <h1 class="skills_titles">Extra Stuffs</h1>
+                            <span class="skills_subtitle">More than 2 years</span>
                         </div>
-                        <div class="skills_list grid">
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">Photoshop</h3>
-                                    <span class="skills_number">90%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_ps"></span>
-                                </div>
+                        <i class="uil uil-angle-down skills_arrow"></i>
+                    </div>
+                    <div class="skills_list grid">
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Photoshop</h3>
+                                <span class="skills_number">90%</span>
                             </div>
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">GitHub</h3>
-                                    <span class="skills_number">90%</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_ps"></span>
-                                </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_ps"></span>
+                            </div>
+                        </div>
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">GitHub</h3>
+                                <span class="skills_number">90%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_ps"></span>
                             </div>
                         </div>
                     </div>
@@ -482,10 +482,12 @@
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Payment Form</h3>
-                            <p class="portfolio__description">Webiste is responsive to all devices with ui components</p>
-                            <a href="#" class="button button--flex button--small portfolio__button">
+                            <p class="portfolio__description">Webiste is responsive to all devices with ui components
+                            </p>
+                            <a href="https://github.com/VAMPYBABA/Projects/tree/53770e602617aabc193eee43556a66ed13829208/Payment%20Form"
+                                target="_blank" class="button button--flex button--small portfolio__button">
                                 Demo
-                                <i class="uil uil-arrow-right button__icon"></i>
+                                <i class="uil uil-arrow-right button_icon"></i>
                             </a>
                         </div>
                     </div>
@@ -495,10 +497,12 @@
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Contact Form</h3>
-                            <p class="portfolio__description">Webiste is responsive to all devices with ui components</p>
-                            <a href="#" class="button button--flex button--small portfolio__button">
+                            <p class="portfolio__description">Webiste is responsive to all devices with ui components
+                            </p>
+                            <a href="https://github.com/VAMPYBABA/Projects/tree/53770e602617aabc193eee43556a66ed13829208/Contact%20Form"
+                                target="_blank" class="button button--flex button--small portfolio__button">
                                 Demo
-                                <i class="uil uil-arrow-right button__icon"></i>
+                                <i class="uil uil-arrow-right button_icon"></i>
                             </a>
                         </div>
                     </div>
@@ -508,10 +512,12 @@
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Portfolio Website</h3>
-                            <p class="portfolio__description">Fully functioning portfolio website & it is responsive to all devices with ui components</p>
-                            <a href="#" class="button button--flex button--small portfolio__button">
+                            <p class="portfolio__description">Website is responsive to
+                                all devices W/ ui components</p>
+                            <a href="https://github.com/VAMPYBABA/Projects/tree/53770e602617aabc193eee43556a66ed13829208/portfolio"
+                                target="_blank" class="button button--flex button--small portfolio__button">
                                 Demo
-                                <i class="uil uil-arrow-right button__icon"></i>
+                                <i class="uil uil-arrow-right button_icon"></i>
                             </a>
                         </div>
                     </div>
@@ -520,11 +526,13 @@
                         <img src="image/ssw.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title">School Staff Information Processing Software </h3>
-                            <p class="portfolio__description">Software made using Java, supports windows 7,8,8.1,10,11</p>
-                            <a href="#" class="button button--flex button--small portfolio__button">
+                            <h3 class="portfolio__title">Staff Information S/W</h3>
+                            <p class="portfolio__description">Software made using Java, support windows
+                            </p>
+                            <a href="https://github.com/VAMPYBABA/Projects/tree/53770e602617aabc193eee43556a66ed13829208/SSM_SW"
+                                target="_blank" class="button button--flex button--small portfolio__button">
                                 Demo
-                                <i class="uil uil-arrow-right button__icon"></i>
+                                <i class="uil uil-arrow-right button_icon"></i>
                             </a>
                         </div>
                     </div>
@@ -541,7 +549,117 @@
                 <div class="swiper-pagination"></div>
             </div>
         </section>
+
+        <!---- contact Page -->
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Contact Me</h2>
+            <span class="section_subtitle">Get in touch</span>
+
+            <div class="contact_container container grid">
+                <div>
+                    <div class="contact_information">
+                        <i class="uil uil-phone contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Call Me</h3>
+                            <span class="conatct_subtitle">+91 91222-44192</span>
+                        </div>
+                    </div>
+
+                    <div class="contact_information">
+                        <i class="uil uil-envelope contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Email</h3>
+                            <span class="conatct_subtitle">1020sumit@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact_information">
+                        <i class="uil uil-map-marker contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Location</h3>
+                            <span class="conatct_subtitle">Siliguri, West Bengal</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact_form grid">
+                    <div class="contact_inputs grid">
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Name</label>
+                            <input type="text" class="contact_input">
+                        </div>
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Email</label>
+                            <input type="email" class="contact_input">
+                        </div>
+                    </div>
+                    <div class="contact_content">
+                        <label for="" class="contact_label">Project</label>
+                        <input type="text" class="contact_input">
+                    </div>
+                    <div class="contact_content">
+                        <label for="" class="contact_label">Message</label>
+                        <textarea name="" id="" cols="" rows="7" class="contact_input"></textarea>
+                    </div>
+
+                    <div>
+                        <a href="#" class="button button--flex">
+                            Send Message
+                            <i class="uil uil-message button_icon"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
+
+    <!---- footer Page -->
+    <footer class="footer">
+        <div class="footer_bg">
+            <div class="footer_container container grid">
+                <div>
+                    <h1 class="footer_title">Sumit</h1>
+                    <span class="footer_subtitle">Web-Dev Enthusiastic</span>
+                </div>
+
+                <ul class="footer_links">
+                    <li>
+                        <a href="#services" class="footer_link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer_link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer_link">ContactMe</a>
+                    </li>
+                </ul>
+
+                <div class="footer_socials">
+                    <a href="https://www.facebook.com/1020sumit" target="_blank" class="footer_social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/i_sumit_ig/" target="_blank" class="footer_social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+
+                    <a href="https://twitter.com/i_Sumit_kumar" target="_blank" class="footer_social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer_copy">&#169; VAMPYBABA. All right reserved</p>
+        </div>
+    </footer>
+
+    <!---- Scroll Top -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup_icon"></i>
+    </a>
+
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/website.js"></script>
 </body>
