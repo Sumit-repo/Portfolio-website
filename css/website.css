@@ -139,7 +139,7 @@ img {
 }
 
 .section {
-    padding: 2rem 0 4em;
+    padding: 4rem 0 0;
 }
 
 .section_title {
@@ -158,7 +158,7 @@ img {
 }
 
 .container {
-    max-width: 768px;
+    max-width: 1040px;
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
 }
@@ -178,10 +178,11 @@ img {
 }
 
 .nav {
-    max-width: 968px;
+    padding: 0 2vh;
+    max-width: 100%;
     height: var(--header-height);
     display: flex;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     justify-content: space-between;
     align-items: center;
     color: var(--first-color);
@@ -196,6 +197,7 @@ img {
 .content {
     color: #fff;
     font-weight: 300;
+
 }
 
 .nav_logo:hover {
@@ -235,7 +237,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
     color: var(--title-color);
     font-weight: var(--font-medium);
 }
@@ -274,12 +276,12 @@ img {
 }
 
 .home_container {
+    max-width: 80vw;
     gap: 1rem;
 }
 
 .home_content {
     grid-template-columns: .5fr 3fr;
-    padding-top: 3.5rem;
     align-items: center;
 }
 
@@ -290,7 +292,7 @@ img {
 }
 
 .home_social-icon {
-    font-size: 1.25rem;
+    font-size: 1.6rem;
     color: var(--first-color);
 }
 
@@ -304,7 +306,8 @@ img {
 }
 
 .home_blob-img {
-    width: 170px;
+    width: 400px;
+    border-radius: 20px 0 20px 0;
 }
 
 .home_data {
@@ -312,7 +315,7 @@ img {
 }
 
 .home_title {
-    font-size: var(--big-font-size);
+    font-size: 7vh;
 }
 
 .home_subtitle {
@@ -498,34 +501,30 @@ img {
 }
 
 .skills_html {
-    width: 90%;
+    width: 100%;
 }
 
 .skills_css {
-    width: 70%;
+    width: 100%;
 }
 
 .skills_js {
-    width: 50%;
-}
-
-.skills_react {
-    width: 10%;
-}
-
-.skills_c {
-    width: 60%;
+    width: 70%;
 }
 
 .skills_java {
     width: 90%;
 }
 
-.skills_python {
+.skills_Nodejs {
     width: 50%;
 }
 
 .skills_mysql {
+    width: 100%;
+}
+
+.skills_sql {
     width: 90%;
 }
 
@@ -935,14 +934,14 @@ img {
     }
 
     .section {
-        padding: 6rem 0 2rem;
+        padding: 10vh 2vh ;
     }
 
     .section_subtitle {
         margin-bottom: 4rem;
     }
 
-    .header{
+    .header {
         top: 0;
         bottom: initial;
     }
@@ -952,8 +951,7 @@ img {
     }
 
     .header,
-    .main 
-    .footer_container {
+    .main .footer_container {
         padding: 0 1rem;
     }
 
@@ -1001,11 +999,12 @@ img {
     }
 
     .about_container {
-        column-gap: 5rem;
+        column-gap: 10rem;
+        overflow: hidden;
     }
 
     .about_img {
-        width: 350px;
+        width: 100%;
     }
 
     .about_description {
